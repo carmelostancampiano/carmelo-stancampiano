@@ -3,7 +3,7 @@ body{
     background-color:rgb(243, 243, 223);
     font-family: 'Cabin', sans-serif;}
 
-img {
+img{
     height: auto;
 }
 
@@ -33,7 +33,7 @@ p.logo{
 }
 
 p.logo img{
-    max-width: 200px
+    max-width: 200px;
 }
 
 p.lente img{
@@ -49,18 +49,19 @@ display: flex;
 justify-content: center;
 }
 
+
 p.cerca{
     background-color: white;
     border-radius: 40px;
     text-align: center;
-    max-width: 80px;
+width: 80px;
     display: flex;
 }
 
 p.lente {
     background-color: #F8972E;
-    width: 80px;
-    height: 80px;
+width: 80px;
+     height: 80px;
     border-radius: 40px;
     align-items: center;
     justify-content: center;
@@ -162,7 +163,7 @@ div.introduzione p{
 
 div.introduzione img {
     background-color: none;
-    max-width: 400px;
+    max-width: 100%;
     grid-column-start: 2;
     margin: auto;
 }
@@ -191,7 +192,6 @@ div.giappone p.testo{
     font-size: 30px;
     margin-top: auto;
     margin-right: auto;
-    margin-bottom: ;
     max-width: 100%;
     height: fit-content;
     padding: 50px;
@@ -230,30 +230,32 @@ div.row::after {
   }
 
 img.tofu{
-    width: 500px;
-    margin-left: 300px;
+    width: 100%;
+    margin-left: 100px;
 }
 
 img.riso{
-    width: 500px;
+    width: 100%;
 }
 
 img.egitto1{
-    width: 500px;
+    width: 100%;
+    margin-left: 10%;
 }
 
 img.egitto2{
-    width: 500px;
-    margin-left: 200px;
+    width: 100%;
+    margin-left: 100px;
+margin-right: 10%;
 }
 
 img.messico1{
-    width: 500px;
+    width: 100%;
 }
 
 img.messico2{
-    width: 800px;
-    margin-left: 150px;
+    width: 100%;
+    margin-left: 100px;
 }
 
 div.fine{
@@ -266,7 +268,7 @@ padding: 10px;
 }
 
 img.caffè2{
-    width: 800px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
