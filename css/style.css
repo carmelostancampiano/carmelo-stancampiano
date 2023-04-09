@@ -49,8 +49,11 @@ display: flex;
 justify-content: center;
 font-size:25px !important;
 color: grey;
+border: 1px;
+border-radius: 40px;
+padding-left: 40px ;
 }
- 
+
 p.cerca{
     background-color: white;
     border-radius: 40px;
@@ -91,7 +94,6 @@ li.signin {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
   }
   li.signin img {
     width: 50px;
@@ -315,11 +317,12 @@ input.email{
     height: 20px;
     margin-left: auto;
     margin-right: auto;
-    border-color: black;
+    border-radius: 40px;
 justify-content: center;
 display: flex;
 font-size: 15px;
 color: grey;
+padding-left: 10px;
 }
 
 footer{
@@ -347,4 +350,4 @@ font-size: 15px;
     body{
         background: #FFBABA;
     }
-    
+}
