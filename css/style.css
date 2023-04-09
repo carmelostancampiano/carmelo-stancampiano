@@ -41,15 +41,16 @@ p.lente img{
     padding: 10px;
 } 
 
-form input{
+input.barra{
     width: 800px;
 height: 80px;
 align-items: center;
 display: flex;
 justify-content: center;
+font-size:25px !important;
+color: grey;
 }
-
-
+ 
 p.cerca{
     background-color: white;
     border-radius: 40px;
@@ -315,6 +316,10 @@ input.email{
     margin-left: auto;
     margin-right: auto;
     border-color: black;
+justify-content: center;
+display: flex;
+font-size: 15px;
+color: grey;
 }
 
 footer{
